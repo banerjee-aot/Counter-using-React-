@@ -17,7 +17,7 @@ function App() {
   return (
     <>
      <div className="main flex justify-center items-center flex-col">
-      <h1 className="mt-6 text text-xl bg-slate-400 p-4">Counter</h1>
+      <h1 className="mt-6 text text-xl bg-slate-400 p-4 border-black border-2">Counter</h1>
      <div className="container bg-slate-600 h-[30rem] w-[30rem] mt-14 mx-auto p-8 flex justify-evenly items-center border-4 border-black">
       <div className=" bg-slate-400  text-6xl  h-[10rem] w-[10rem]    flex justify-center items-center border-4 border-black ">{counterTwo}</div>
       <div className="inline-flex mx-7">
